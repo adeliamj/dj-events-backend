@@ -14,9 +14,10 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:3000'],  // Pastikan frontend URL disini
-      methods: ['GET', 'POST', 'PUT', 'DELETE'],
-      allowedHeaders: ['Content-Type', 'Authorization'],
+      enabled: true,
+      origin: ['http://localhost:3000'], // Sesuaikan dengan frontend
+      methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+      headers: ['Content-Type', 'Authorization'],
     },
   },
   'strapi::poweredBy',

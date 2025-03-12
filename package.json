@@ -25,6 +25,7 @@
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
     "slugify": "^1.6.6",
+    "strapi": "^3.6.11",
     "strapi-plugin-users-permissions": "^3.6.11",
     "styled-components": "^6.0.0"
   },
@@ -34,5 +35,8 @@
   },
   "strapi": {
     "uuid": "e20e385d-3d03-45b6-b203-f2f8f7a5a93f"
+  },
+  "devDependencies": {
+    "@types/mime": "^4.0.0"
   }
 }
