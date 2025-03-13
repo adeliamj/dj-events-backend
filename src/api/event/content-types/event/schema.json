@@ -33,9 +33,6 @@
     "performers": {
       "type": "string"
     },
-    "description": {
-      "type": "blocks"
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -52,6 +49,9 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "events"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

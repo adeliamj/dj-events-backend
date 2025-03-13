@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * event router
  */
