@@ -15,7 +15,7 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      origin: ['http://localhost:3000'], // Sesuaikan dengan frontend
+      origin: ['https://dj-events-frontend-sepia.vercel.app'], // Sesuaikan dengan frontend
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization'],
     },
